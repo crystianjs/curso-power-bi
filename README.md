@@ -10,9 +10,15 @@ O repositório está organizado em módulos para refletir o progresso técnico a
 
 ```text
 ├── 01-tratamento-dados-power-query/
-│   ├── dados-origem/              
-│   │   ├── base_vendas.xlsx         # A base bruta (importante deixar para o projeto ser reprodutível)
+│   ├── dados-origem/              # Arquivos brutos fornecidos no curso (.xlsx, .txt, .csv)
+│   │   ├── base_vendas.xlsx
 │   │   └── instrucoes_atividades.txt
-│   ├── pbix/                      
-│   │   └── exercicio_pratico.pbix   # O arquivo do Power BI onde a mágica aconteceu
-│   └── README.md                    # Onde ficam os prints comparativos e sua explicação!
+│   ├── pbix/                      # Arquivo de desenvolvimento do Power BI
+│   │   └── exercicio_pratico.pbix
+│   └── README.md                  # Detalhes, desafios e etapas deste módulo
+│
+├── 02-modelagem-dados/            # Próximos módulos (Relacionamentos, Star Schema, Snowflake)
+│   └── ...
+│
+└── 03-dax-avancado/               # Próximos módulos (Medidas, Colunas Calculadas, Inteligência de Tempo)
+    └── ...
