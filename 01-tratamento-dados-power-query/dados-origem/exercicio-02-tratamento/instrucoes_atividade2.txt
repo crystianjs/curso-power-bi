@@ -1,0 +1,9 @@
+Ex:
+
+1- Formatar as colunas do 0
+2- Utilizar o dividir colunas e separar o nome completo em : (nome + sobrenome)
+3- Criar 3 tipos de agrupar por:
+
+1)produto e valor
+2)gênero e valor
+3)produto + gênero e valor somado
